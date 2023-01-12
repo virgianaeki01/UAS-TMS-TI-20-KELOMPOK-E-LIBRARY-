@@ -1,0 +1,28 @@
+{
+    "name": "fast8/ng-framework",
+    "description": "Official Fast8 PHP Framework",
+    "keywords": ["Gadjian", "Gajian", "Gaji", "HRD", "Personalia", "Fast8"],
+    "homepage": "https://gadjian.com/",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "php-http/curl-client": "~1.7.1",
+        "guzzlehttp/psr7": "^1.4@dev",
+        "guzzlehttp/guzzle": "~6.5.2",
+        "phpoffice/phpspreadsheet": "dev-master",
+        "tecnickcom/tcpdf": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4",
+        "vlucas/phpdotenv": "^3.3@dev"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
